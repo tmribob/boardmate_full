@@ -1,0 +1,37 @@
+.rangeDiv {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  gap: 0.5em;
+  position: relative;
+}
+
+.rangeBar {
+  accent-color: var(--green);
+  -webkit-appearance: none;
+  background-color: var(--lightWhite);
+  border-radius: 8px;
+  height: 0.5em;
+}
+
+.progressBar {
+  height: 0.5em;
+  background-color: var(--green);
+  position: absolute;
+  border-radius: 8px;
+  left: 0;
+}
+
+.description{
+  display: flex;
+  justify-content: space-between;
+  height: 1.5em;
+}
+
+.currentValue {
+  font-size: 1.25em;
+}
+
+.min, .max, .currentValue {
+  margin: 0;
+}

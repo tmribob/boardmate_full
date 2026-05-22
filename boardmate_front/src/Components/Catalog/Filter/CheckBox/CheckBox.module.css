@@ -1,0 +1,6 @@
+.checkBox {
+  margin-left: 0.5em;
+  display: flex;
+  gap: 0.3em;
+  accent-color: var(--green);
+}

@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+}
+
+.title {
+  color: var(--green);
+  text-align: center;
+  margin: 0.5em;
+}
+
+.recommendation {
+  display: flex;
+  justify-content: space-around;
+  height: 82.5%;
+}
+
+.carousel {
+  width: 30%;
+  background-color: var(--white);
+  border-radius: 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.friend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: var(--yellow) 0.25em solid;
+  aspect-ratio: 1 / 1;
+  width: 65%;
+  object-fit: cover;
+  object-position: center;
+}

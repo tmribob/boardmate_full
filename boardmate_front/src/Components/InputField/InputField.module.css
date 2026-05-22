@@ -1,0 +1,15 @@
+.label {
+  font-size: 1.25em;
+  color: var(--green);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  min-height: 5em;
+}
+
+.field input {
+  font-size: 1.5em;
+}

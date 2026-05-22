@@ -1,0 +1,48 @@
+.friends {
+  padding: 2em;
+  display: flex;
+  background-color: var(--white);
+  border-radius: 1.5em;
+  gap: 1em;
+  flex-direction: column;
+}
+
+.headerFriends {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleFriends {
+  margin: 0;
+  color: var(--green);
+}
+
+.numberOfFriends {
+  color: var(--coffee);
+  font-size: 1.25em;
+}
+
+.friendsList {
+  display: flex;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
+
+.friendCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.avatar {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  background-color: var(--yellow);
+}
+
+.nickname {
+  color: var(--green);
+  font-size: 1.25em;
+}

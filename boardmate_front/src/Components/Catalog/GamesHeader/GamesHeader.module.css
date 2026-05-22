@@ -1,0 +1,43 @@
+.gamesHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 4em;
+  align-items: center;
+  width: 100%;
+}
+
+.resultsInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalogTitle {
+  margin: 0;
+  color: var(--green);
+}
+
+.gamesCount {
+  margin: 0;
+  color: var(--coffee);
+  font-size: 1.2em;
+}
+
+.sorting {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.sortBy {
+  color: var(--black);
+  font-size: 1.1em;
+}
+
+.sortSelection {
+  font-size: 1.25em;
+  padding: 0.25em 0.5em;
+  border: var(--coffee-30) solid 2px;
+  background-color: var(--white);
+  border-radius: 0.5em;
+  outline: none;
+}

@@ -1,0 +1,48 @@
+
+.profile {
+  padding: 2em;
+  display: flex;
+  background-color: var(--white);
+  border-radius: 1.5em;
+  gap: 2em;
+}
+
+.avatar {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  border: 4px var(--yellow) solid;
+  background-color: var(--yellow);
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  justify-content: space-around;
+}
+
+.nickname {
+  margin: 0;
+  color: var(--green);
+}
+
+.description {
+  margin: 0;
+  display: block;
+  width: 50%;
+  overflow-wrap: break-word; /* ✅ Ломает длинные слова */
+  word-break: break-word;
+}
+
+.editProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.actions {
+  display: flex;
+  gap: 10%;
+}

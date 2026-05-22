@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.contain {
+  background-color: var(--white);
+  width: 40vw;
+  min-height: 60vh;
+  border-radius: 1.5em;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1em;
+}
+
+.title {
+  margin: 0;
+  font-size: 2.25em;
+  text-align: center;
+  color: var(--green);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.action {
+  display: flex;
+  gap: 3em;
+}
+
+.login {
+  color: var(--coffee);
+  text-decoration: none;
+  text-align: right;
+}

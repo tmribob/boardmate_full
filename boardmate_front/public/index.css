@@ -1,0 +1,31 @@
+input[type="range"]::-webkit-slider-thumb{
+  width: 24px;
+  height: 24px;
+  background: url('./logo.svg') no-repeat center;
+  background-size: contain;
+  appearance: none;
+}
+
+body {
+  background-color: var(--lightWhite);
+  margin: 0;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  color: var(--black);
+}
+
+#root {
+  height: 100%;
+}
+
+:root {
+  --green: #2A4F35;
+  --lightWhite: #F5F5F0;
+  --white: #FFFFFF;
+  --coffee: #A0846E;
+  --coffee-20: #A0846E33;
+  --coffee-30: #A0846E4D;
+  --black: #333333;
+  --grey: #ADAEBC;
+  --yellow: #FFC72C;
+}

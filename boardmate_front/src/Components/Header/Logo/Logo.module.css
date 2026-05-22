@@ -1,0 +1,18 @@
+.logoSVG {
+  width: 32px;
+  height: 32px;
+  fill: var(--green);
+}
+
+.logo {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.siteName {
+  margin: 0;
+  color: var(--green);
+}

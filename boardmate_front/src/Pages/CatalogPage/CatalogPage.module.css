@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  padding: 2% 7.5%;
+  gap: 5%;
+}
+
+.catalog {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}

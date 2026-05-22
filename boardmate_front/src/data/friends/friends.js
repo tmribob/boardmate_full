@@ -1,0 +1,55 @@
+const friends = [{
+  avatar: "/avatar.png",
+  id: 1,
+  nickName: "d1frend",
+}, {
+  avatar: "/avatar.png",
+  id: 2,
+  nickName: "itan511",
+}, {
+  avatar: "/avatar.png",
+  id: 3,
+  nickName: "EgorAnti",
+}, {
+  avatar: "/avatar.png",
+  id: 4,
+  nickName: "HotBanAn",
+}, {
+  avatar: "/avatar.png",
+  id: 5,
+  nickName: "kitsune",
+}, {
+  avatar: "/avatar.png",
+  id: 6,
+  nickName: "lyakhonov",
+}, {
+  avatar: "/avatar.png",
+  id: 7,
+  nickName: "garfieldmk",
+}, {
+  avatar: "/avatar.png",
+  id: 8,
+  nickName: "dawuduk",
+}, {
+  avatar: "/avatar.png",
+  id: 9,
+  nickName: "thegalochka",
+}, {
+  avatar: "/avatar.png",
+  id: 10,
+  nickName: "Pheurta",
+}, {
+  avatar: "/avatar.png",
+  id: 11,
+  nickName: "l_avari",
+}, {
+  avatar: "/avatar.png",
+  id: 12,
+  nickName: "leonteva",
+}, {
+  avatar: "/avatar.png",
+  id: 13,
+  nickName: "z1nlak",
+}];
+
+export default friends;

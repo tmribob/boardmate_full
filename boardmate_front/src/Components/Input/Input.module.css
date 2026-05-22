@@ -1,0 +1,31 @@
+.area {
+  display: flex;
+  border-radius: 0.5em;
+  border: 1px solid var(--coffee);
+  background-color: var(--lightWhite);
+  padding: 0.5em;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.area:focus-within, .area:hover {
+  border: 2px solid var(--coffee);
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--black);
+  width: 100%;
+  height: 100%;
+}
+
+.input::placeholder {
+  color: var(--grey);
+}
+
+.icon {
+  scale: 1.25;
+  color: var(--coffee);
+}
